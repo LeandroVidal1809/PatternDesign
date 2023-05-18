@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern.csproj", "{BBD9A08F-4F0F-4E47-B510-493393FEC66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern", "DesignPattern.csproj", "{BBD9A08F-4F0F-4E47-B510-493393FEC66D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A- Creational Patterns", "A- Creational Patterns", "{9E797A54-283B-4A2D-BAF2-CB505F38DBF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Singleton", "1 - Singleton", "{4AD8E7D0-7379-4A77-82E1-D21765B4C856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Singleton", "..\1 - Singleton\1 - Singleton.csproj", "{C690CE37-142C-428D-AF48-383653C7CE1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - Singleton", "..\1 - Singleton\1 - Singleton.csproj", "{C690CE37-142C-428D-AF48-383653C7CE1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Factory Method", "2 Factory Method", "{5A5CD539-B891-47F6-9929-49318DEBCA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "..\FactoryMethod\FactoryMethod.csproj", "{BC8E0209-607D-4959-B206-FECFE3D64212}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{C690CE37-142C-428D-AF48-383653C7CE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C690CE37-142C-428D-AF48-383653C7CE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C690CE37-142C-428D-AF48-383653C7CE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8E0209-607D-4959-B206-FECFE3D64212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8E0209-607D-4959-B206-FECFE3D64212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8E0209-607D-4959-B206-FECFE3D64212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8E0209-607D-4959-B206-FECFE3D64212}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4AD8E7D0-7379-4A77-82E1-D21765B4C856} = {9E797A54-283B-4A2D-BAF2-CB505F38DBF5}
 		{C690CE37-142C-428D-AF48-383653C7CE1C} = {4AD8E7D0-7379-4A77-82E1-D21765B4C856}
+		{5A5CD539-B891-47F6-9929-49318DEBCA63} = {9E797A54-283B-4A2D-BAF2-CB505F38DBF5}
+		{BC8E0209-607D-4959-B206-FECFE3D64212} = {5A5CD539-B891-47F6-9929-49318DEBCA63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F27D63B-AF85-43ED-A881-B226F18611E0}
