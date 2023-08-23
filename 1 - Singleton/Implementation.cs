@@ -9,25 +9,18 @@ namespace Singleton
    public class Logger
     {
 
-        private static readonly Lazy<Logger> _lazyLogger =  new Lazy<Logger>(() => new Logger());
+        private static Logger? _instance;
         public static Logger Instance
-        {            
-            get { return _lazyLogger.Value; }
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new Logger();
+                }
+                return _instance;
+            }
         }
-        //Lazy is safe to use in Singleton.
-        //Without Lazy
-        //private static  Logger? _instance;
-        //public static Logger Instance
-        //{
-        //    get
-        //    {
-        //        if (_instance == null)
-        //        {
-        //            _instance = new Logger();
-        //        }
-        //        return _instance;
-        //    }
-        //}
 
 
         protected Logger() {}
